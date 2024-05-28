@@ -9,3 +9,17 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.sidebar {
+  background-color: rgb(53, 50, 50);
+  height: 82vh;
+}
+
+#Footer {
+    background-color: rgb(6, 133, 91);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
