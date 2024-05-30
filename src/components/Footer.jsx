@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <div id="Footer">
-    <a href = "https://github.com/andreiapsa/react-app-mini-project"  alt = "Link"/> 
+    <p><a href="https://github.com/andreiapsa/react-app-mini-project">Repository</a></p>
     </div>
   )
 }
