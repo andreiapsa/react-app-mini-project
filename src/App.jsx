@@ -5,10 +5,10 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import List from './components/List'
-import DashboardPage from './components/pages/DashboardPage'
-import ItemDetailsPage from './components/pages/ItemDetailsPage'
-import AboutPage from './components/pages/AboutPage'
-import NotFoundPage from './components/pages/NotFoundPage'
+import DashboardPage from './pages/DashboardPage'
+import ItemDetailsPage from './pages/ItemDetailsPage'
+import AboutPage from './pages/AboutPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<DashboardPage/>}/>
-        <Route path="/details" element={<ItemDetailsPage/>}/>
+        <Route path="/details/:taskId" element={<ItemDetailsPage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="*" element={<NotFoundPage/>}/>
       </Routes>
